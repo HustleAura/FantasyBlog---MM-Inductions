@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>FantasyBlogs - None of this is real</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+</head>
+
+<body>
+  <!-- Start your project here-->
+
+
+  <div class="container">
+    <!--top navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+          <!-- Left links -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Contact Us
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Report an issue</a></li>
+                <li><a class="dropdown-item" href="#">Report a query</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Join our Community!</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://source.unsplash.com/1600x900/?island,nature" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Let's Go!</h3>
+            <p>Escape the reality with the amazing travelogues.</p>
+            <button class="btn btn-danger">Travelogues</button>
+            <button class="btn btn-primary">City Guides</button>
+            <button class="btn btn-success">Reviews</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://source.unsplash.com/1600x900/?sunset,nature" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Did You Know?</h3>
+            <p>Know more about the places you visit with exhaustive guides.</p>
+            <button class="btn btn-danger">Travelogues</button>
+            <button class="btn btn-primary">City Guides</button>
+            <button class="btn btn-success">Reviews</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://source.unsplash.com/1600x900/?waterfall,nature" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Shall we or Shall we not?</h3>
+            <p>Choose only the best with our detailed reviews.</p>
+            <button class="btn btn-danger">Travelogues</button>
+            <button class="btn btn-primary">City Guides</button>
+            <button class="btn btn-success">Reviews</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions"
+        data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions"
+        data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">FantasyBlogs</a>
+
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <!-- Navbar dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              Wanna see local?
+            </a>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Indian</a></li>
+              <li><a class="dropdown-item" href="#">International</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Western</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Eastern</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Left links -->
+
+        <!-- Search form -->
+        <form class="d-flex input-group w-auto">
+          <input type="search" class="form-control" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-primary" type="button" data-mdb-ripple-color="dark">
+            Search
+          </button>
+        </form>
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+  <div class="container my-4">
+    <div class="card bg-dark text-white col-lg-8">
+      <img src="https://mdbootstrap.com/img/new/slides/017.jpg" class="card-img" alt="..." />
+      <div class="card-img-overlay">
+        <h5 class="card-title">New This Month</h5>
+        <p class="card-text">
+          See the latest blog of the month and enjoy.
+        </p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel wrapper -->
+  <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center my-4" data-mdb-ride="carousel">
+    <h1 class="font">Travel Vlogs</h1>
+    <!-- Controls -->
+    <div class="d-flex justify-content-center mb-4">
+      <button class="carousel-control-prev position-relative" type="button" data-mdb-target="#carouselMultiItemExample"
+        data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next position-relative" type="button" data-mdb-target="#carouselMultiItemExample"
+        data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Inner -->
+    <div class="carousel-inner py-4">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/181.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Astoria, Oregon</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">The Berkshires</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/183.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Big Sky, Montana</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Birmingham, Alabama</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/185.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">The Black Hills of South Dakota</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/186.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Buffalo, New York</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/187.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Burlington, Vermont</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/188.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Cape May, New Jersey</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/189.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Cincinnati, Ohio</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+  </div>
+  <!-- Carousel wrapper -->
+
+  <!--multiple card grid-->
+  <div class="container">
+    <h1 class="font">Guides</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h2 class="card-title">USA</h2>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://mdbootstrap.com/img/new/standard/city/042.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h2 class="card-title">Italy</h2>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://mdbootstrap.com/img/new/standard/city/043.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h2 class="card-title">Singapore</h2>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://mdbootstrap.com/img/new/standard/city/044.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h2 class="card-title">Britain</h2>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel wrapper -->
+  <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center my-4" data-mdb-ride="carousel">
+    <h1 class="font">Reviews</h1>
+    <!-- Controls -->
+    <div class="d-flex justify-content-center mb-4">
+      <button class="carousel-control-prev position-relative" type="button" data-mdb-target="#carouselMultiItemExample"
+        data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next position-relative" type="button" data-mdb-target="#carouselMultiItemExample"
+        data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Inner -->
+    <div class="carousel-inner py-4">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/181.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Restaurante Benazuza, Cancun, Mexico</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">TRB Hutong, Beijing, China</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/183.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Epicure, Paris, France</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">The Jane, Antwerp, Belgium</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/185.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Le Brouillarta, Saint-Jean-de-Luz, France</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/186.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">David's Kitchen, Chiang Mai, Thailand</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/187.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Ristorante Villa Crespi, Orta San Giulio, Italy</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/188.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Epicure, Paris, France</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+              <div class="card">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/189.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">TRB Hutong, Beijing, China</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+  </div>
+  <!-- Carousel wrapper -->
+
+  <!--multiple card grid-->
+  <div class="container">
+    <h1 class="font">Editor's pick</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Do's and Don'ts of Travelling</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://mdbootstrap.com/img/new/standard/city/042.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">10 Things You Should Always Carry</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://mdbootstrap.com/img/new/standard/city/043.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">A Little Bit of Homework</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://mdbootstrap.com/img/new/standard/city/044.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Planning Your Trip Effectively</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white my-4">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Subscibe to the newsletter for exciting blogs and rich content, delivered to your inbox.
+        </p>
+      </section>
+      <section class="mb-4">
+        <h5>About the author:</h5>
+        <p>
+          This blog is made by Manjeet Pani for the sole purpose of MM inductions. I have never travelled any of the 
+          places. None of the above information is correct and all the names have been googled out. The pictures are 
+          from the unsplash free API. Thank You.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">FantasyBlogs.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript">
+    var a = document.getElementById('disc-50');
+    a.onclick = function () {
+      Clipboard_CopyTo("T9TTVSQB");
+      var div = document.getElementById('code-success');
+      div.style.display = 'block';
+      setTimeout(function () {
+        document.getElementById('code-success').style.display = 'none';
+      }, 900);
+    };
+
+    function Clipboard_CopyTo(value) {
+      var tempInput = document.createElement("input");
+      tempInput.value = value;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand("copy");
+      document.body.removeChild(tempInput);
+    }
+  </script>
+</body>
+
+</html>
